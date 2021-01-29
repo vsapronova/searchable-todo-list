@@ -29,7 +29,7 @@ body {
   .todo-search {
     height: 1.5rem;
     border-radius: 5px solid;
-    width: 70%;
+    width: 60%;
     caret-color: orange;
   }
   
@@ -40,9 +40,20 @@ body {
   .completed-style {
     font-style: italic;
     color: #cdcdcd;
-    text-decoration: "line-through";
+    text-decoration: line-through;
   }
   
+  .todo-add-container {
+    margin-top: 10px;
+    
+  }
+  
+  .todo-add-button {
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px solid;
+  }
+
   input[type="checkbox"] {
     margin-right: 10px;
     font-size: 30px;
